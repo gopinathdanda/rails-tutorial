@@ -2,6 +2,9 @@
 
 ## Request/Response Cycle
 
+<img src='http://s3.amazonaws.com/codecademy-content/projects/3/request-response-cycle-dynamic.svg'>
+<i>www.codecademy.com</i>
+
 1. USER sends request to BROWSER.
 
 2. BROWSER forwards to RAILS ROUTER.
