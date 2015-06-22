@@ -40,7 +40,7 @@ Add routing line in <b>config/routes.rb</b>
 </pre>
 
 4. Create VIEW page:<br/>
-Add HTML file in <b>app/views/pages/home.html.erb</b>
+Add HTML file in <b>app/views/pages/home.html.erb</b><br/>
 Add CSS file in <b>app/assets/stylesheets/pages.css.scss</b>
 
 5. Run project:<br/>
