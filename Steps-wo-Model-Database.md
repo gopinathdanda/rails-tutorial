@@ -16,7 +16,8 @@ Add method (e.g. home) inside PagesController class of <b>app/controllers/pages_
 3. ROUTE request to CONTROLLER Methods:<br/>
 Add routing line in <b>config/routes.rb</b>
 <pre>
-	get 'welcome' => 'pages#home'	//route request for welcome to method home in controller
+	get 'welcome' => 'pages#home'	//GET request for home method in pages controller
+	post 'new' => 'pages#newpost'	//POST request for newpost method in pages controller
 </pre>
 
 4. Create VIEW page:<br/>
