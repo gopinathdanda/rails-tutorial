@@ -40,4 +40,4 @@ where the DB MIGRATION <b>db/migrate/create_messages.rb</b> is:
 	end
 </pre>
 
-and the DB is called @<b>messages</b>.
+and the DB TABLE is called <b>messages</b>.
