@@ -20,10 +20,10 @@ and inside VIEW <b>app/views/messages/index.html.erb</b>
 
 <pre>
 	<% @messages.each do |message| %>
-		<div class="message">
-	    	<p class="content"><%= message.content %></p>
-	    	<p class="time"><%= message.created_at %></p>
-	    </div>
+		&lt;div class="message"&gt;
+	    	&lt;p class="content"&gt;<%= message.content %>&lt;/p&gt;
+	    	&lt;p class="time"&gt;<%= message.created_at %>&lt;/p&gt;
+	    &lt;/div&gt;
 	<% end %>
 </pre>
 
